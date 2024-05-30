@@ -10,7 +10,7 @@ export default async function Page() {
             <div>
                 {musics.map((item) => {
                     return (
-                        <div>
+                        <div key={item.id}>
                             {item.title}
                         </div>
                     )
